@@ -8,8 +8,31 @@ Este projeto tem como objetivo criar um pipeline para classificar textos (por ex
 
 ## Estrutura de Pastas
 
-distilbert_classifier/ ├── data/ # Arquivos de entrada (por exemplo, naturezas.csv e arquivos Excel/CSV com dados brutos) ├── outputs/ # Arquivos gerados: dados processados, modelo treinado, status, etc. ├── import_data_1.py # Script para importar e processar os dados (acumula os dados em dados_tratados.xlsx) ├── clean_2.py # Módulo com funções de limpeza de texto (limpar_texto e tratar_natureza) ├── train_3.py # Script para treinar o classificador utilizando DistilBERT (gera embeddings e salva modelo) ├── inference_4.py # Script para testar inferências em novos textos ├── gradio_app_full.py # Interface gráfica integrada com Gradio (importação, treinamento, inferência e verificação) ├── README.md # Documentação do projeto (este arquivo) └── requirements.txt # Lista de dependências
+<p align="center">
+  <img alt="Pastas" src="git/pastas.png" width="100%">
+</p>
 
+```
+distilbert_classifier/ 
+
+├── data/ # Arquivos de entrada (por exemplo, naturezas.csv e arquivos Excel/CSV com dados brutos) 
+
+├── outputs/ # Arquivos gerados: dados processados, modelo treinado, status, etc. 
+
+├── import_data_1.py # Script para importar e processar os dados (acumula os dados em dados_tratados.xlsx) 
+
+├── clean_2.py # Módulo com funções de limpeza de texto (limpar_texto e tratar_natureza) 
+
+├── train_3.py # Script para treinar o classificador utilizando DistilBERT (gera embeddings e salva modelo) 
+
+├── inference_4.py # Script para testar inferências em novos textos 
+
+├── gradio_app_full.py # Interface gráfica integrada com Gradio (importação, treinamento, inferência e verificação) 
+
+├── README.md # Documentação do projeto (este arquivo) 
+
+└── requirements.txt # Lista de dependências
+```
 
 ## 💻  Passo a Passo do Projeto
 

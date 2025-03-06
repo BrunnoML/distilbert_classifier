@@ -40,3 +40,6 @@ venv.bak/
 
 # Diretório de saídas e modelos (gerados automaticamente)
 outputs/
+
+# Arquivos git
+git/
