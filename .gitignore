@@ -1,0 +1,42 @@
+# Arquivos compilados e cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuição e empacotamento
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+
+# Ambientes virtuais
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Arquivos de Jupyter Notebook
+.ipynb_checkpoints
+
+# Configurações de IDEs/editores
+.vscode/
+.idea/
+
+# Arquivos do sistema (macOS, etc.)
+.DS_Store
+
+# Arquivos de log
+*.log
+
+# Diretório de saídas e modelos (gerados automaticamente)
+outputs/
