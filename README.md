@@ -9,7 +9,7 @@ Este projeto tem como objetivo criar um pipeline para classificar textos (por ex
 ## Estrutura de Pastas
 
 <p align="center">
-  <img alt="Pastas" src="images/pastas.png" width="100%">
+  <img alt="Pastas" src="images/pastas.png" width="60%">
 </p>
 
 ```
