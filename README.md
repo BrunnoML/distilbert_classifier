@@ -102,7 +102,7 @@ O arquivo `gradio_app_full.py` integra todas as funcionalidades em abas:
 
 1. **Clone** este repositório:
 ```bash
-git clone <URL_do_repositório>
+git clone https://github.com/BrunnoML/distilbert_classifier
 cd distilbert_classifier
 ```
 
